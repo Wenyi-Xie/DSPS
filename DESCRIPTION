@@ -1,0 +1,10 @@
+Package: DSP
+Title: Support Vector Machine for Dynamic Survival Prediction with Time-Dependent Covariates
+Version: 1.0
+Authors: Wenyi Xie, Yuanjia Wang, Donglin Zeng
+Maintainer: Wenyi Xie <xiewenyi@live.unc.edu>
+Description: Provides a dynamic prediction of event time based on time-to-event data with time-dependent covariates through a series of support vector machines.
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
