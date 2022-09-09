@@ -24,11 +24,11 @@
 #'                 filter(at_risk == 1) %>%
 #'                 select(-at_risk)
 #'
-#' fit <- dsp_fit(train_data,
+#' fit <- dsps_fit(train_data,
 #'                kernel="semi_linear",
 #'                C=2^0)
 #'
-#' fit <- dsp_fit(train_data,
+#' fit <- dsps_fit(train_data,
 #'                kernel="semi_gaussian",
 #'                sigma=2^0,
 #'                C=2^0)
@@ -37,7 +37,7 @@
 #'
 #' @export
 
-dsp_fit <- function(data,
+dsps_fit <- function(data,
                     kernel,
                     C,
                     sigma=NULL){

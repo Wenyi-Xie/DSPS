@@ -69,7 +69,7 @@
 
 
 
-dsp_predict <- function(fit, newdata){
+dsps_predict <- function(fit, newdata){
 
   test <- transform_Test(newdata, fit)
 
